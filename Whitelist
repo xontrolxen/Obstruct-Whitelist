@@ -1,1 +1,3 @@
-_G().get = game:GetService("RbxAnalyticsService"):GetClientId()
+local get = {
+    ["updates"] = game:GetService("RbxAnalyticsService"):GetClientId()
+}
